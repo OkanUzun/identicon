@@ -1,21 +1,20 @@
 # Identicon
 
-**TODO: Add description**
+**An icon generator by given input based on elixir language.**
 
-## Installation
+## Usage
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `identicon` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:identicon, "~> 0.1.0"}
-  ]
-end
+```
+git clone git@github.com:OkanUzun/identicon.git
+cd identicon
+iex -S mix
+Identicon.main input
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/identicon](https://hexdocs.pm/identicon).
+Example
 
+```
+$ iex -S mix
+Identicon.main "ali"
+open ali.png
+```
