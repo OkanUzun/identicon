@@ -1,6 +1,6 @@
 # Identicon
 
-**An icon generator by given input based on elixir language.**
+**An unique icon generator by given input based on elixir language.**
 
 ## Usage
 
